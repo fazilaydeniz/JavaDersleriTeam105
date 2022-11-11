@@ -14,9 +14,11 @@ public class C19_DenemeIfElse {
 
         if (harf>='a' && harf<='z'){
             //Küçük harftir
-            System.out.println((char)(harf-32));
+              System.out.println((char)(harf-32));
+           // System.out.println(Character.toUpperCase(harf)); Bu da kullanılabilir
         }else{
             // küçük harf değildir.
+            System.out.println(harf);
 
         }
 
