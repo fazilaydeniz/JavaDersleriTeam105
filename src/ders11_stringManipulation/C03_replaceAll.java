@@ -24,11 +24,15 @@ public class C03_replaceAll {
         //System.out.println(s1+s2); // 12501500
         //System.out.println(Integer.parseInt(s1)+Integer.parseInt(s2)); // 2750
 
-        String str = "ilk ürün fiyati: 1250";
-        String str2= "İkinci ürün fiyatı : 1750";
-        str= str.replaceAll("\\D" , "");
-        str2= str2.replaceAll("\\D", "");
-        System.out.println(Integer.parseInt(str) + Integer.parseInt(str2));
+      String s1= "İlk ürünün fiyatı : 1250 tl";
+      String s2= "İkinci ürünün fiyatı : 1500 tl";
+
+      s1= s1.replaceAll("\\D","");
+      s2= s2.replaceAll("\\D","");
+
+        System.out.println(s1+s2); //12501500  Burada string olarak topladığı için yanyana yazdırır
+        System.out.println(Integer.parseInt(s1)+Integer.parseInt(s2)); // Burada matemiksel olarak 2750 sonucunu verir.
+
 
 
 

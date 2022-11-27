@@ -1,5 +1,7 @@
 package ders11_stringManipulation;
 
+import java.util.Scanner;
+
 public class C08_Soru {
     public static void main(String[] args) {
         // Soru 4 : Kullanicidan bir sifre isteyip,
@@ -10,8 +12,9 @@ public class C08_Soru {
         // - son karakter rakam olmali
         // - sifre bosluk icermemeli
         // - uzunlugu en az 10 karakter olmali
-
-        String sifre="nasilsinKardes1";
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Lütfen bir şifre giriniz");
+        String sifre= scan.nextLine();
         int bayrak=0;
 
         if (!(sifre.charAt(0)>='a' && sifre.charAt(0)<='z')){

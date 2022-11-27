@@ -9,10 +9,8 @@ public class C04_WhileLoop {
         /*
         Kullanicidan toplanmak uzere tamsayilar alin
         kullanici 0'a basarsa sayi alma islemini bitirin
-
         kullanicinin kac sayi girdigini
         ve bu sayilarin toplaminin kac oldugunu yazdirin
-
          */
 
         Scanner scan= new Scanner(System.in);

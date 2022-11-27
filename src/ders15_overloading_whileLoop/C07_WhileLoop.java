@@ -7,8 +7,8 @@ public class C07_WhileLoop {
         // While loop kullanarak verilen sayinin istenen ussunu hesaplayip yazdiran bir method olusturun.
 
 
-        int sayi=3;
-        int us= 4;
+        int sayi=5;
+        int us= 2;
         usHesapla(sayi,us);
 
     }

@@ -14,8 +14,7 @@ public class C06_WhileLoop {
         sartlar :
         - sifrenin ilk karakteri kucuk harf olmali
         - sifrenin son karakteri sayi olmali
-        - sifre en az 8 basamkli olmali
-
+        - sifre en az 8 basamakli olmali
          */
 
         Scanner scan= new Scanner(System.in);
